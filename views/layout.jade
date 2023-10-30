@@ -2,6 +2,18 @@ doctype html
 html
   head
     title= title
+    
+    //- stylesheets
+    link(rel='preconnect', href='https://fonts.gstatic.com')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css2?family=Sacramento&display=swap')
     link(rel='stylesheet', href='/stylesheets/style.css')
+
+    //- Vue
+    script(src='https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js')
+
+    //- jQuery and Bootstrap
+    script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js')
+
   body
     block content
